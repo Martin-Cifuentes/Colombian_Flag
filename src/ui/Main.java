@@ -7,7 +7,6 @@ public class Main {
 	public static final String ANSI_YELLOW_BACKGROUND = "43m";
 	public static final String ANSI_BLUE_BACKGROUND = "44m";
 	public static final String ANSI_RED_BACKGROUND = "41m";
-	public final static String ESC   = "\u001b[";
 	public static void main(String[] args) throws InterruptedException {
 		
 		Stripe yellowStripe = new Stripe(0, 11, 100, ANSI_YELLOW_BACKGROUND);
